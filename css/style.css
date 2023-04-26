@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fondo{
+    background-color: white;
+}
+/* typo */
+.pres_portada h1{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 74px;
+    width: 0px;
+}
+.pres_portada p{
+    font-family: 'Inter', sans-serif;
+    width: 0px;
+}
+/* > PRESENTACION PORTADA */
+.pres_portada{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px;
+}
+/* img de portada */
+.pres_portada img{
+    height: 386px;
+    padding: 15px;
+}
+/* tit angels */
+.pres_angels h2{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 54px;
+    padding: 3px;
+}
+/* imgs */
+.pres_angels img{
+    height: 370px;
+    padding: 15px;
+}
+/* > PRESENTACION ANGELS */
+.pres_angels{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 120px;
+}
+/* tit obra */
+.pres_obra h2{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 45px;
+}
+/* img obra */
+.pres_obra img{
+    width: 350px;
+    padding: 15px;
+}
+/* > PRESENTACION OBRA */
+.pres_obra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 130px;
+}
+/* tit texturas  */
+.pres_texturas h2{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 58px;
+    width: 84px;
+}
+/* img texturas */
+.pres_texturas img{
+    width: 290px;
+}
+/* > PRESENTACION TEXTURAS */
+.pres_texturas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* tit terror */
+.pres_terror h2{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 74px;
+}
+/* img terror */
+.pres_terror img{
+    width: 300px;
+}
+/* PRESENTACION TERROR */
+.pres_terror{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 134px;
+    padding: 12px;
+}
+/* img moda */
+.pres_moda img{
+    width: 300px;
+}
+/* tit moda */
+.pres_moda h2{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 130px;
+    width: 194px;
+}
+/* PRESENTACION MODA */
+.pres_moda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* tit color */
+.pres_color h2{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 81px;
+}
+/* img color */
+.pres_color img{
+    width: 298px;
+}
+/* PRESENTACION COLOR */
+.pres_color{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 86px;
+}
+
+/* FOOTER */
+.sec_footer li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    list-style: none;
+    font-size: 15px;
+}
+.sec_footer li a{
+    color: black;
+}
+.sec_footer p{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
